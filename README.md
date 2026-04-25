@@ -66,8 +66,7 @@ Backend integration (API, database, real payment system) can be added in the nex
 ---
 
 ## 🌐 Live Demo
-
-(Add your Vercel link here)
+(https://zestio-avinav.vercel.app/)
 
 ---
 
