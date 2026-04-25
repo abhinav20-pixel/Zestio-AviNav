@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  
+  --color-primary-start: #FF7A18;
+  --color-primary-end: #FFB347;
+  
+  /* Glassmorphism theme colors */
+  --color-glass: rgba(255, 255, 255, 0.04);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-glass-hover: rgba(255, 255, 255, 0.08);
+
+  --color-dark-bg: #0A0A0A;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark-bg);
+    color: #ffffff;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background-color: var(--color-glass);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--color-glass-border);
+  }
+  
+  .glass-card-hover {
+    transition: all 0.3s ease;
+  }
+  
+  .glass-card-hover:hover {
+    background-color: var(--color-glass-hover);
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 122, 24, 0.1);
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, var(--color-primary-start), var(--color-primary-end));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(to right, var(--color-primary-start), var(--color-primary-end));
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    box-shadow: 0 0 15px rgba(255, 122, 24, 0.5);
+    transform: translateY(-1px);
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
