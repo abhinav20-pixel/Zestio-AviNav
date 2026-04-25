@@ -1,16 +1,91 @@
-# React + Vite
+# 🍽️ Zestio – Restaurant Frontend UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zestio is a modern, premium restaurant frontend web application built with React and Tailwind CSS.
+It features a glassmorphism-based UI design with a smooth, mobile-first user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 👤 User Side
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Browse menu with modern UI
+* Add items to order
+* Select **Dine-in / Takeaway**
+* Enter details (Name, Mobile, Guests)
+* View table availability (UI)
+* QR-based payment flow
+* Upload payment screenshot
 
-## Expanding the ESLint configuration
+### 🧑‍💼 Admin Panel (UI)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Manage menu items (add/edit/delete)
+* Upload payment QR code
+* View customer orders
+* Table management interface
+
+---
+
+## 🎨 UI/UX Highlights
+
+* Glassmorphism design
+* Dark luxury theme (AMOLED optimized)
+* Smooth animations and micro-interactions
+* Fully responsive (mobile-first)
+* Clean and minimal layout
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js (JSX)
+* Tailwind CSS
+* React Router
+* Context API (state management)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── context/
+ ├── data/
+ └── App.jsx
+```
+
+---
+
+## ⚠️ Note
+
+This is a **frontend-only project**.
+Backend integration (API, database, real payment system) can be added in the next phase.
+
+---
+
+## 🌐 Live Demo
+
+(Add your Vercel link here)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here if needed)
+
+---
+
+## 📌 Future Improvements
+
+* Backend integration (Node.js + MongoDB)
+* Razorpay / Stripe payment integration
+* Authentication system
+* Real-time order tracking
+
+---
+
+## 👨‍💻 Author
+
+Abhinav Kumar
