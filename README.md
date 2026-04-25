@@ -73,7 +73,8 @@ Backend integration (API, database, real payment system) can be added in the nex
 
 ## 📸 Screenshots
 
-(Add screenshots here if needed)
+<img width="1920" height="1061" alt="1" src="https://github.com/user-attachments/assets/f8692c99-afb4-4e18-9ae5-61642851e206" />
+<img width="1920" height="1065" alt="2" src="https://github.com/user-attachments/assets/18825e47-acfb-431e-8024-4268c3a37cd0" />
 
 ---
 
